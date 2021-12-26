@@ -5,8 +5,6 @@
 
 The objective of this challenge is to use different machine learning algorithms to predict credit card risk . Use differnt techniques like data preprocessing , data transformation, boosting, bagging, oversampling , undersampling etc to find good candidate for loan. 
 
-PySpark was used to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next,  using PySpark, I determined if there is any bias toward favorable reviews from Vine members in the dataset so that SellBy stakeholders can assess if membership to the Vine program is going to be beneficial.
-
 ## Resources 
 
 *LoanStats_2019Q1.csv
@@ -44,3 +42,9 @@ The following section shows comparasion for prediction results of oversampling ,
 ![image](https://github.com/sanjal7137/Credit_Risk_Analysis/blob/7fedf40e28f297dc7c5339874fd1bcf2230f322f/images/easyadptive.png)
 
 ## Summary
+Following image shows summary for all six machine learning algorithm used for credit risk analysis.
+
+![image](https://github.com/sanjal7137/Credit_Risk_Analysis/blob/e0287cec5988ce6a551d6c854c3247aa474120f9/images/summary.png)
+
+From above analysis we can say that comapare to oversampling and undersampling ensamble algorithms give good prediction results.
+Out of two algorithms of ensamble we can say that both algorithm give good prediction but BalancedRandomforest algorithmm is best fir for our analysis because its provide 93.28 5 accuracy as well as good recall and F1-score for High-risk.
