@@ -47,4 +47,4 @@ Following image shows summary for all six machine learning algorithm used for cr
 ![image](https://github.com/sanjal7137/Credit_Risk_Analysis/blob/e0287cec5988ce6a551d6c854c3247aa474120f9/images/summary.png)
 
 From above analysis we can say that comapare to oversampling and undersampling ensamble algorithms give good prediction results.
-Out of two algorithms of ensamble we can say that both algorithm give good prediction but BalancedRandomforest algorithmm is best fir for our analysis because its provide 93.28 5 accuracy as well as good recall and F1-score for High-risk.
+Both ensamble algorithm give good prediction but BalancedRandomforest algorithmm is best fir for our analysis because its provide 93.28 %accuracy as well as good recall and F1-score for High-risk.
